@@ -41,26 +41,4 @@ $(document).ready(function(){
   }
 }); // end ready
 
-//     $.getJSON(APIurl, {
-//         tags: animal,
-//         format: "json"
-//       },
-//     function(data){
-//       var photoHTML = '';
-//       if (data.items.length > 0) {
-//         $.each(data.items,function(i,photo) {
-//           photoHTML += '<li class="grid-25 tablet-grid-50">';
-//           photoHTML += '<a href="' + photo.link + '" class="image">';
-//           photoHTML += '<img src="' + photo.media.m + '"></a></li>';
-//         }); // end each
-//       } else {
-//         photoHTML = "<p>No photos found that match: " + animal + ".</p>"
-//       }
-//       $('#photos').html(photoHTML);
-//       $searchField.prop("disabled", false);
-//       $submitButton.attr("disabled", false).val("Search");
-//     }); // end getJSON
-
-//   }); // end click
-
 
