@@ -28,8 +28,7 @@ $(document).ready(function(){
             photoHTML += '<img src="' + badges + '"></a></li>';
 
           });
-          // }else{
-          //   photoHTML = "<p>No badges found that match: " + animal + ".</p>"
+          
           // }// end of if statement 
           $('#photos').html(photoHTML); 
           $searchField.prop("disabled", false);
