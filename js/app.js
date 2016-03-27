@@ -11,7 +11,6 @@ $(document).ready(function(){
     var animal = $searchField.val();
     $('#photos').html('');
     var APIurl = "https://teamtreehouse.com/"+animal+".json";
-    // debugger
     $.ajax({
         url : APIurl, 
         dataType : 'json', 
@@ -19,7 +18,6 @@ $(document).ready(function(){
         cache: false, 
         success: function(data){
           var photoHTML = ''; 
-          // if(data.name>0){
           $.each(data.badges,function(i,photo){
             //console.log(data.badges[index].icon_url); 
             var badges = data.badges[i].icon_url; 
